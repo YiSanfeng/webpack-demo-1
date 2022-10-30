@@ -1,3 +1,4 @@
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 
 module.exports = {
@@ -6,4 +7,5 @@ module.exports = {
   output: {
     filename: "[name].[contenthash].js",
   },
+  // plugins: [new HtmlWebpackPlugin()],
 };
