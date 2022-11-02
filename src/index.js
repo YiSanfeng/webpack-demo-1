@@ -1,5 +1,4 @@
 import x from "./x.js";
-import png from "./assets/2.jpg";
 console.log(png);
 
 // const div = document.getElementById("app");
