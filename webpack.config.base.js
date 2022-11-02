@@ -17,8 +17,16 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: ["file-loader"],
+      },
+      {
+        test: /\.styl$/,
+        use: ["style-loader", "css-loader", "stylus-loader"], // compiles Less to CSS
+      },
+      {
         test: /\.less$/,
-        loader: ["style-loader", "css-loader", "less-loader"], // compiles Less to CSS
+        use: ["style-loader", "css-loader", "less-loader"], // compiles Less to CSS
       },
       {
         test: /\.scss$/i,
