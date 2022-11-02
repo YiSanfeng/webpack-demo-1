@@ -6,4 +6,3 @@ rm -rf dist;
 git add .  &&
 git commit -m 'update' &&
 git push &&
-gig checkout -
