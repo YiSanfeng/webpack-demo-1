@@ -1,5 +1,4 @@
 import x from "./x.js";
-console.log(png);
 
 // const div = document.getElementById("app");
 // div.innerHTML = `
